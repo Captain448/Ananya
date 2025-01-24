@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+div {
+    position: relative;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scene {
+    width: 80%;
+    height: 100vh;
+    display: block;
+    z-index: 0;
+}
+
+button {
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    height: 10rem;
+    width: 10rem;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    background-color: #9d14af;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+button:hover {
+    background-color: #8f0f73;
+}
+
+
